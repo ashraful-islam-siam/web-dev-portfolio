@@ -6,6 +6,11 @@
 }
 
 /* shared style */
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
 .text-primary {
   color: #fd6e0a;
 }
@@ -166,4 +171,77 @@ main section {
 
 .skill-description {
   font-size: 16px;
+}
+
+/* Resume section styles */
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+
+.experience-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.experience-description {
+  font-size: 16px;
+  color: #757575;
+}
+.experience-description,
+.experience-sub-title {
+  color: #757575;
+}
+
+.resume hr {
+  margin: 30px 5px;
+  color: #474747;
+}
+
+.resume button {
+  margin-top: 50px;
+}
+
+/* footer styles */
+
+.footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
+.footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #757575;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  outline: none;
+  font-size: 18px;
 }
